@@ -14,10 +14,10 @@ namespace CodexUsageWidget.Views;
 
 public partial class MainWindow : Window
 {
-    private const double CompactBaseHeight = 236d;
+    private const double CompactBaseHeight = 222d;
     private const double CompactLimitRowHeight = 56d;
-    private const double CompactMaximumHeight = 292d;
-    private const double DetailedHeight = 620d;
+    private const double CompactMaximumHeight = 278d;
+    private const double DetailedHeight = 560d;
 
     private readonly UsageMonitor _usageMonitor;
     private readonly RateLimitResetUseCase _resetUseCase;
