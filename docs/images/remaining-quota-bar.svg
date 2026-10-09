@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+  <title id="title">Remaining quota progress bar</title>
+  <desc id="desc">Used quota is gray on the left and grows to the right. Remaining quota is blue on the right.</desc>
+  <rect width="960" height="280" rx="20" fill="#f8fafc"/>
+  <text x="40" y="52" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">How to read the bar</text>
+  <text x="40" y="94" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="18">5-hour limit</text>
+  <text x="920" y="94" text-anchor="end" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">54% remaining · 46% used</text>
+  <rect x="40" y="112" width="880" height="20" rx="10" fill="#3b82f6"/>
+  <path d="M50 112h395v20H50a10 10 0 0 1-10-10 10 10 0 0 1 10-10z" fill="#d1d5db"/>
+  <text x="40" y="180" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="18">Weekly limit</text>
+  <text x="920" y="180" text-anchor="end" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">82% remaining · 18% used</text>
+  <rect x="40" y="198" width="880" height="20" rx="10" fill="#3b82f6"/>
+  <path d="M50 198h148.4v20H50a10 10 0 0 1-10-10 10 10 0 0 1 10-10z" fill="#d1d5db"/>
+  <rect x="40" y="245" width="18" height="18" rx="4" fill="#d1d5db"/>
+  <text x="68" y="260" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="15">Used: gray advances left to right</text>
+  <rect x="382" y="245" width="18" height="18" rx="4" fill="#3b82f6"/>
+  <text x="410" y="260" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="15">Remaining: blue shrinks as usage grows</text>
+</svg>
